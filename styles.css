@@ -1,7 +1,6 @@
 body {
     background-color: #2A2A2D;
     font-family: 'Source Sans Pro', sans-serif;
-
 }
 
 .header {
@@ -29,4 +28,22 @@ button {
 
 button:hover {
     color: #A8A8AE;
+}
+
+@media (max-width: 576px) {
+    button {
+        padding: 2% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    button {
+        padding: 2% !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    button {
+        padding: 1% !important;
+    }
 }
